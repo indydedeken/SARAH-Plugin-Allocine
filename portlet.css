@@ -1,0 +1,10 @@
+
+.plugin-gridster.allocine .front {
+  background: #FFD81A url('images/logo.png') center 34px;
+  background-size:   82px 91px;
+  background-repeat: no-repeat;
+}
+
+.plugin-gridster.allocine .back {
+  background: #FFD81A;
+}
