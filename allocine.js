@@ -2,7 +2,7 @@ exports.action = function(data, callback, config, SARAH){
 
   var place = data.place || 'B0172';
   
-  var url = 'http://iphone.allocine.fr/salle/seances_gen_csalle='+place+'.html';
+  var url = 'http://mobile.allocine.fr/salle/seances_gen_csalle='+place+'.html';
   var request = require('request');
   request({ 'uri' : url }, function (err, response, body){
     
