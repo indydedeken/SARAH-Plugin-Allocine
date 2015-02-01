@@ -9,10 +9,10 @@
     </one-of>
     <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/allocine";</tag>
   </rule>
-  
+
   <rule id="ruleMoviePlace">
-    <example>Sarah qu'est ce qu'il y a au ciné à Vaucresson ?</example>
-    <tag>out.place="B0172"; </tag>
+    <example>Sarah qu'est ce qu'il y a au ciné à Évry ?</example>
+    <tag>out.place="B0059"; </tag>
     <one-of>
       <item>il y a quoi au ciné</item>
       <item>il y a quoi au cinéma</item>
@@ -28,6 +28,7 @@
     </item>
     <item repeat="0-1">
       <one-of>
+        <item>à Évry <tag>out.place="B0059";</tag></item>
         <item>à Parly 2 <tag>out.place="B0172";</tag></item>
         <item>à vaucresson<tag>out.place="B0099";</tag></item>
       </one-of>
@@ -46,17 +47,24 @@
 
 <!-- Automatic Generation § -->
 <rule id="ruleMovieName">
-  <tag>out.place="B0172";</tag>
+  <tag>out.place="B0059";</tag>
   <one-of>
-    <item>World War Z<tag>out.movie="0";</tag></item>
-    <item>Moi, moche et méchant 2<tag>out.movie="1";</tag></item>
-    <item>La Marque des anges - Miserere<tag>out.movie="2";</tag></item>
-    <item>Dark Skies<tag>out.movie="3";</tag></item>
-    <item>Man of Steel<tag>out.movie="4";</tag></item>
-    <item>Star Trek Into Darkness<tag>out.movie="5";</tag></item>
-    <item>Very Bad Trip 3<tag>out.movie="6";</tag></item>
-    <item>Epic <tag>out.movie="7";</tag></item>
-    <item>The Bay<tag>out.movie="8";</tag></item>
+    <item>La Grande aventure de Maya l'abeille<tag>out.movie="0";</tag></item>
+    <item>Les Pingouins de Madagascar<tag>out.movie="1";</tag></item>
+    <item>Joker<tag>out.movie="2";</tag></item>
+    <item>Pioneer<tag>out.movie="3";</tag></item>
+    <item>La Dame en Noir 2 <tag>out.movie="4";</tag></item>
+    <item>Paddington<tag>out.movie="5";</tag></item>
+    <item>Le Hobbit <tag>out.movie="6";</tag></item>
+    <item>Taken 3<tag>out.movie="7";</tag></item>
+    <item>La Famille Bélier<tag>out.movie="8";</tag></item>
+    <item>Invincible<tag>out.movie="9";</tag></item>
+    <item>L’ Interview qui tue !<tag>out.movie="10";</tag></item>
+    <item>Une merveilleuse histoire du temps<tag>out.movie="11";</tag></item>
+    <item>Charlie Mortdecai<tag>out.movie="12";</tag></item>
+    <item>Les Souvenirs<tag>out.movie="13";</tag></item>
+    <item>Cops - Les Forces du désordre<tag>out.movie="14";</tag></item>
+    <item>Toute première fois<tag>out.movie="15";</tag></item>
   </one-of>
 </rule>
 <!-- § Automatic Generation -->
